@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>strona1</title>
+<style>
+	header { 
+	background: pink; 
+	width:100%; 
+	height: 60px; }
+nav {
+	background: yellow; 
+	width:20%; height:400px;  
+	float: left;}
+section { 
+	background: lightgrey; 
+	width:50%; 
+	height:400px; 
+	float: left; }
+.div1 { background: blue; 
+	width:30%; 
+	height:400px;  
+	float: left; }
+footer { 
+	background: purple; 
+	width:100%; 
+	height: 20px; 
+	clear:both; }
+p { 
+	font: 14px Arial, 
+	sans-serif; 
+	color: black; 
+	text-align: center; }
+</style>
+</head>
+<body>
+	
+	<header>
+		<p>header</p>
+	</header>
+
+	<nav>
+		<p>menu</p>
+	</nav>
+
+	<section>
+		<article>
+			<p>treść</p>
+		</article>
+	</section>
+	
+	<div class="div1">
+		<p>news</p>
+	</div>
+
+	<footer>
+		<p>footer</p>
+	</footer>
+</body>
+</html>
